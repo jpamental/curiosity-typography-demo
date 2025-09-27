@@ -6,6 +6,31 @@
   --ui-bg-bright: #ffffff;
 
   --text-primary: #18181b;
+
+  --text-p-size-min: 1rem;
+  --text-p-size-max: 1.25rem;
+  --text-p-line-height-min: 1.33em;
+  --text-p-line-height-max: 1.5em;
+  --text-p-weight: 375;
+  --text-p-width: 100;
+  --text-p-YTLC: 525
+}
+
+/* Responsive text properties */
+@media screen {
+  :root {
+    --text-p-width: 90;
+  }
+}
+@media screen and (min-width: 28em) {
+  :root {
+    --text-p-width: 95;
+  }
+}
+@media screen and (min-width: 47em) {
+  :root {
+    --text-p-width: 100;
+  }
 }
 
 /* Reset */
@@ -22,8 +47,17 @@ body {
   background-color: var(--ui-bg-primary);
   color: var(--text-primary);
   font-family: "Nunito Sans", "Helvetica Neue", Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
+p {
+  font-size: clamp(var(--text-p-size-min), 0.5833em + 0.6667vw, var(--text-p-size-max));
+  line-height: clamp(var(--text-p-line-height-min), 0.4217rem + 1.4533vw, var(--text-p-line-height-max));
+  font-weight: var(--text-p-weight);
+  font-stretch: calc(var(--text-p-width) * 1%);
+  font-variation-settings: 'YTLC' var(--text-p-YTLC);
+}
 
 
 /* Layout */
