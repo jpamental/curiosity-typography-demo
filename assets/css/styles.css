@@ -112,6 +112,22 @@ p {
   margin-top: 1ch;
 }
 
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+* + figure {
+  margin-top: 1rem;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Typographic details */
 
 .content-layout__content > p:first-of-type:first-line {
@@ -320,6 +336,10 @@ blockquote p::after {
   height: 2rem;
   width: 2rem;
   padding-left: 0.1rem;
+}
+
+figure:has(.image-shape-wrap) {
+  margin-top: 0;
 }
 
 .image-shape-wrap {
