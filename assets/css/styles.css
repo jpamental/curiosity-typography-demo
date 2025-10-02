@@ -20,7 +20,7 @@
 
   --text-p-size-min: 1rem;
   --text-p-size-max: 1.25rem;
-  --text-p-line-height-min: 1.33em;
+  --text-p-line-height-min: 1.4em;
   --text-p-line-height-max: 1.5em;
   --text-p-weight: 375;
   --text-p-width: 100;
@@ -163,7 +163,7 @@ blockquote p::after {
 
 .demo-title {
   writing-mode: sideways-lr;
-  color: hsla(0, 0%, 50%, 0.25);
+  color: hsla(0, 0%, 50%, 0.175);
   float: left;
   font-size: 8.5vh;
   font-stretch: 85%;
