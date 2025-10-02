@@ -278,10 +278,16 @@ figure:has(.image-shape-wrap) {
   padding-bottom: 0.5em;
 }
 .image-shape-wrap.left {
-  float: left; 
   padding-right: 1vw; 
 }
 .image-shape-wrap.right {
-  float: right; 
   padding-left: 1vw; 
+}
+@media screen and (min-width: 28em) {
+  .image-shape-wrap.left {
+    float: left; 
+  }
+  .image-shape-wrap.right {
+    float: right; 
+  }
 }
