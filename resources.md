@@ -8,3 +8,5 @@ https://adrianroselli.com/2015/01/on-use-of-lang-attribute.html
 font-clamp generator
 https://clamp.font-size.app
 
+Resource loading
+https://www.debugbear.com/blog/resource-hints-rel-preload-prefetch-preconnect
