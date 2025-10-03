@@ -238,6 +238,7 @@ blockquote p::after {
 }
 
 .buy-now h3 {
+  font-size: 1.125rem;
   line-height: 1.15;
   margin: 0;
 }
