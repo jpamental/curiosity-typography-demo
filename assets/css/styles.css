@@ -42,16 +42,19 @@
 /* Responsive text properties */
 @media screen {
   :root {
+    --text-h1-width: 100;
     --text-p-width: 90;
   }
 }
 @media screen and (min-width: 28em) {
   :root {
+  --text-h1-width: 110;
     --text-p-width: 95;
   }
 }
 @media screen and (min-width: 47em) {
   :root {
+    --text-h1-width: 120;
     --text-p-width: 100;
   }
 }
