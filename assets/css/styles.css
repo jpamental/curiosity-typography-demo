@@ -239,6 +239,7 @@ blockquote p::after {
 
 .buy-now--header {
   font-size: 1.125rem;
+  font-weight: 650;
   line-height: 1.15;
   margin: 0;
 }
