@@ -364,3 +364,47 @@ figure:has(.image-shape-wrap) {
     float: right; 
   }
 }
+
+.poster-slot {
+  margin: 0.5rem 0;
+  width: auto
+}
+
+.poster-slot--right {
+  float: none;
+}
+@media screen and (min-width: 40em) {
+  .poster-slot {
+    margin: 0.5rem 1rem;
+    width: 45vw;
+  }
+  .poster-slot--right {
+    float: right;
+    margin-left: 1rem;
+    margin-right: -2.5vw;
+  }
+}
+@media screen and (min-width: 45em) {
+  .poster-slot {
+    width: 35vw;
+  }
+  .poster-slot--right {
+    margin-right: -5vw;
+  }
+}
+@media screen and (min-width: 65em) {
+  .poster-slot {
+    width: 40vw;
+  }
+  .poster-slot--right {
+    margin-right: -10vw;
+  }
+}
+@media screen and (min-width: 80em) {
+  .poster-slot {
+    width: 45vw;
+  }
+  .poster-slot--right {
+    margin-right: -17.5vw;
+  }
+}
