@@ -15,7 +15,7 @@
 
 	font-weight: 200 1000; /* default: 200 */
   font-stretch: 75 125; /* default: 100 */
-	font-style: italic; 
+	font-style: oblique; 
 	/* opsz: 6 12; default 12 */
   /* YTLC: 440 540; default 500 */
   font-display: swap;
@@ -24,10 +24,10 @@
 @font-face {
     font-family: 'Adjusted Arial Fallback';
     src: local(Arial);
-    size-adjust: 100%;
+    size-adjust: 89%;
     ascent-override: normal;
     descent-override: normal;
-    line-gap-override: 24%;
+    line-gap-override: 44%;
 }
 
 @font-face {

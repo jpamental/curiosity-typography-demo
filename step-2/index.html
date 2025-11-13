@@ -15,9 +15,18 @@
     <meta name="description" content="A curious look at typography performance and design">
 
     <meta name="description" content="A poster for state parks">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+    const toggleFonts = document.getElementById('toggleFonts');
 
+    toggleFonts.addEventListener('click', () => {
+        document.body.classList.toggle('fallback');
+    });
+});
+    </script>
   </head>
   <body>
+    <nav><a href="#" id="toggleFonts">Toggle Fonts</a></nav>
     <div class="demo-title">Curiosity in Typography</div>
 
 
